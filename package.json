@@ -3,11 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-plugin-styled-components": "^1.8.0",
+    "mobx": "^5.5.2",
+    "mobx-react": "^5.3.6",
     "react": "^16.6.0",
+    "react-app-rewired": "^1.6.2",
     "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "start-mobx": "react-app-rewired start",
+    "build-mobx": "react-app-rewired build",
+    "test-mobx": "react-app-rewired test --env=jsdom",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
